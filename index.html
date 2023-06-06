@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="tab">
+    <div class="tab" id="js-tab">
       <div class="tab-nav">
-        <div class="tab-nav-item is-active">Tab-0</div>
-        <div class="tab-nav-item">Tab-1</div>
-        <div class="tab-nav-item">Tab-2</div>
+        <div class="tab-nav-item is-active" data-nav="0">Tab-0</div>
+        <div class="tab-nav-item" data-nav="1">Tab-1</div>
+        <div class="tab-nav-item" data-nav="2">Tab-2</div>
       </div>
       <div class="tab-contents">
-        <div class="tab-contents-item">タブその０</div>
-        <div class="tab-contents-item">タブその1</div>
-        <div class="tab-contents-item">タブその2</div>
+        <div class="tab-contents-item" data-content="0">タブその０</div>
+        <div class="tab-contents-item" data-content="1">タブその1</div>
+        <div class="tab-contents-item" data-content="2">タブその2</div>
       </div>
     </div>
     <script src="./app.js"></script>
